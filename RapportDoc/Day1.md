@@ -10,6 +10,10 @@
 # Problèmes rencontrés (énnoncé du problème + solution)
 
 # Motivations des technologies/infrastructures utilisées
+> pfSense
+
+    OpenSource, portable, puissant, dispose de nombreuses fonctionnalités
+
 > OpenVPN 
     
     Portabilité crosse plateforme
