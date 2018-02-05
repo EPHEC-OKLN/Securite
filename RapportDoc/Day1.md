@@ -1,6 +1,6 @@
 # Tâches réalisées
 
-### Recherche de documentation sur les différents éléments
+### Recherche de documentation sur les éléments suivant
 
 > *pfSense*
 
