@@ -1,20 +1,19 @@
 # Tâches réalisées
+On s'est concertés pour décider les technologies nécéssaires au bon fonctionnement du projet. Pour le moment on q choisis 3 technologies :
 
-### Recherche de documentation sur les éléments suivant
+*pfSense* qui sera la veritable plaque tournante pour la sécurité de notre infra
 
-> *pfSense*
+*OpenVPN client-to-site* pour la liaison VPN client-to-site
 
-> *OpenVPN client-to-site*
-
-> *VPN IPSec site-to-site*
+*VPN IPSec site-to-site* pour la liaison VPN site-to-site
 # Problèmes rencontrés (énnoncé du problème + solution)
 
 # Motivations des technologies/infrastructures utilisées
-> pfSense
+pfSense
 
     OpenSource, portable, puissant, dispose de nombreuses fonctionnalités
 
-> OpenVPN 
+OpenVPN 
     
     Portabilité crosse plateforme
     Bonne stabilité
@@ -25,9 +24,18 @@
     Sécurisé (support du X509 PKI, SSL, TLS, ...)
     ...
     
+IPSEC
+
+    techno très répendue, safe, et qu'on a apris en cours avec Schalkwijk 
+
+    
+    
 # Remarques éventuelles
 
 # Sources (Important !)
+
+### IPSec
+Infrastructure réseau base de Laurent Schalkwijk (cours de 2TI)
 
 ### pfSense
 https://forum.pfsense.org/index.php?topic=76015.0
@@ -39,3 +47,4 @@ https://forum.pfsense.org/index.php?topic=76015.0
 
 ### Pourquoi OpenVPN
 https://openvpn.net/index.php/open-source/335-why-openvpn.html
+
