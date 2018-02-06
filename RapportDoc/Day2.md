@@ -35,7 +35,7 @@
 
 ## Infra
 
-Certaines NICs du pfsense n'appartenaient pas au bon réseau, nous avons le temps de recâbler et de reconfigurer calmement les switchs physiques et virtuels.
+Certaines NICs du pfsense n'appartenaient pas au bon réseau, nous avons pris le temps de recâbler et de reconfigurer calmement les switchs physiques et virtuels.
 
 ## Interface web
 
