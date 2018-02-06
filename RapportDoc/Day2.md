@@ -18,6 +18,7 @@
 
 1. Refuser tout le traffic entrant sauf exceptions
 1. Autoriser le traffic http(s) (tcp/80, tcp/443) vers le reverse proxy
+1. Autoriser le traffic ftp (tcp/20, tcp/21) vers les serveurs web
 1. Autoriser le traffic dns (tcp/53, udp/53) vers le SOA
 
 ## DMZ
