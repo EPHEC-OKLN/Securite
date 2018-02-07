@@ -1,9 +1,25 @@
 # Tâches réalisées
 
+* Reverse Proxy
+
+* Configurer openVPN
+
+* Mise en place du DNS
+
 # Problèmes rencontrés (énnoncé du problème + solution)
 
-# Motivations des technologies/infrastructures utilisées
+## openVPN
 
-# Remarques éventuelles
+Certaines NICs du pfsense n'appartenaient pas au bon réseau, nous avons pris le temps de recâbler et de reconfigurer calmement les switchs physiques et virtuels.
 
-# Sources (Important !)
+## Mise en place du DNS
+
+
+
+# Remarques
+
+
+
+# Sources
+
+
