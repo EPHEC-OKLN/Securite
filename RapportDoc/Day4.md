@@ -8,7 +8,7 @@
 
 * Mise en place d'openVPN client-to-site
 
-* Mise en place du VPN site-to-site # AFAIRE !
+# Mise en place du VPN site-to-site 
 
 * Installation du package quagga-OSPF & pfSense-pkg-openvpn-client-export
 
