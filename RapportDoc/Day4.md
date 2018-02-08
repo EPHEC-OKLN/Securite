@@ -10,6 +10,10 @@
 
 * Mise en place du VPN site-to-site # AFAIRE !
 
+* Installation du package quagga-OSPF & pfSense-pkg-openvpn-client-export
+
+* Création d'une CRL (control revocation list)
+
 * Debuggage
 
 # Problèmes rencontrés (énnoncé du problème + solution)
