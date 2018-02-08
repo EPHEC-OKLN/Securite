@@ -20,19 +20,21 @@
 
 ## Problème au niveau de la version du pfSense et impossibilité d'installer le package Quagga OSPF
 
-La version du pfSense installée par la team deployment était dépassée et l'update ne passait pas (elle n'allait pas jusqu'au bout). Nous avons donc téléchargé une version de pfSense plus récente pour pouvoir installer le package Quagga et mettre en place l'OSPF.
+La version du pfSense installée par la team deployment était dépassée et la mise à jour ne fonctionnait pas (freeze complet du par-feu pendant 30 minutes). Nous avons donc téléchargé et installé une version de pfSense plus récente pour pouvoir installer le package Quagga et mettre en place l'OSPF.
 
 ## openVPN
 
-## Problème au niveau d'une règles du firewall
+TODO
 
-Ajout de règles dans le firewall.
+## User-zone sans accès internet
 
-Ajout des logs au niveau des règles du firewall pour le LAN
+Un oubli de notre part dans les règles du par-feu a ralenti de plusieurs dizaines de minutes l'équipe chargé de l'infra réseau. Les règles en place n'autorisaient que le traffic venant du réseau "Core-to-Distrib" (172.16.0.0/29) et n'autorisait pas les réseaux relayés par les Switch L3 "User-Zone" (VLAN 10, 20, 30, 50). Une règle supplémentaire a été ajoutée pour les autoriser après que l'équipe infra ait trouvé la source du problème.
 
 # Motivations des technologies/infrastructures utilisées
 
-# Remarques éventuelles
+## Quagga
+
+Nous avons choisi d'utiliser le paquet freebsd Quagga pour OSPF pour sa bonne intégration avec pfsense
 
 # Sources
 
