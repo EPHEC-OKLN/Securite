@@ -6,7 +6,11 @@
  
 * Mise en place de l'OSPF
 
-* Mise en place d'openVPN
+* Mise en place d'openVPN client-to-site
+
+* Mise en place du VPN site-to-site # AFAIRE !
+
+* Debuggage
 
 # Problèmes rencontrés (énnoncé du problème + solution)
 
@@ -22,6 +26,8 @@ Ajout de règles :
 
 * 
 
+Ajout des logs au niveau des règles du firewall pour le LAN
+
 # Motivations des technologies/infrastructures utilisées
 
 # Remarques éventuelles
@@ -29,3 +35,9 @@ Ajout de règles :
 # Sources
 
 <https://www.cyberciti.biz/faq/freebsd-setup-default-routing-with-route-command/netstat-freebsd-routing-table/>
+
+<https://www.sparklabs.com/support/kb/article/setting-up-an-openvpn-server-with-pfsense-and-viscosity/>
+
+<https://doc.pfsense.org>
+
+<https://www.freebsd.org>
