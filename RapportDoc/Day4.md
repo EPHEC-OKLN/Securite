@@ -26,9 +26,7 @@ La version du pfSense installée par la team deployment était dépassée et l'u
 
 ## Problème au niveau d'une règles du firewall
 
-Ajout de règles : 
-
-* 
+Ajout de règles dans le firewall.
 
 Ajout des logs au niveau des règles du firewall pour le LAN
 
