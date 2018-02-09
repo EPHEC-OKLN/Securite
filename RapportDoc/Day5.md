@@ -53,6 +53,9 @@ Il ne faudra pas oublier de de créer un CRL dans l'onglet System > Certificate 
 ![](https://cdn.discordapp.com/attachments/409990901511880704/411458135375740928/cpt2.PNG)
 ![](https://cdn.discordapp.com/attachments/409990901511880704/411458305005715456/Cpt3.PNG)
 
+Pour les VPN, il faudra d'abord créer un serveur ainsi qu'un client
+https://cdn.discordapp.com/attachments/409990901511880704/411458743839096833/openVPN.PNG
+https://cdn.discordapp.com/attachments/409990901511880704/411458731591598080/openVPN_CLI.PNG
 
 ## OSFP
 
